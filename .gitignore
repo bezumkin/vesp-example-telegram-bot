@@ -1,0 +1,11 @@
+/.idea
+/.local
+/core/vendor
+/frontend/node_modules
+/frontend/.nuxt
+/frontend/dist
+/frontend/.eslintcache
+/tmp
+/upload
+/.env
+/.env.local
