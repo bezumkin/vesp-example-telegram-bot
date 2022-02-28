@@ -11,6 +11,11 @@ $scheduler->php(__DIR__ . '/clear-tokens.php', null, [], 'clear_tokens')
     ->inForeground()
     ->onlyOne();
 
+$scheduler->php(__DIR__ . '/get-updates.php', null, [], 'get_updates')
+    ->everyMinute()
+    ->inForeground()
+    ->onlyOne();
+
 $executed = $scheduler->run();
 /** @var Job $job */
 foreach ($executed as $job) {
