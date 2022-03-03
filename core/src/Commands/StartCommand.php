@@ -17,7 +17,7 @@ class StartCommand extends UserCommand
         $data = [
             'Привет, ' . ($user->getFirstName()) . '!',
             'Это тренировочный бот, написанный в целях обучения на https://bezumkin.ru/sections/vesp-telegram.',
-            'На данный момент бот отвечает раз в минуту. Используй /help, чтобы увидеть все доступные команды.',
+            'Используй /help, чтобы увидеть все доступные команды.',
         ];
 
         return $this->replyToChat(implode(PHP_EOL . PHP_EOL, $data));

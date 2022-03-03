@@ -17,6 +17,7 @@
     "ext-json": "*",
     "akrabat/ip-address-middleware": "^1.0",
     "longman/telegram-bot": "^0.75.0",
+    "pelmered/fake-car": "^1.7",
     "peppeocchi/php-cron-scheduler": "^3.1",
     "vesp/core": "^2.3.0"
   },

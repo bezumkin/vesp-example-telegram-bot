@@ -24,6 +24,7 @@ $group = $app->group(
             '/web',
             static function (RouteCollectorProxy $group) {
                 $group->get('/test', App\Controllers\Web\Test::class);
+                $group->post('/webhook', App\Controllers\Web\Webhook::class);
             }
         );
     }
